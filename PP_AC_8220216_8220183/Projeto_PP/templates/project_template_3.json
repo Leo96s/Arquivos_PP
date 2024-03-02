@@ -1,0 +1,19 @@
+{
+  "number_of_facilitors": 8,
+  "number_of_students": 13,
+  "number_of_partners": 2,
+  "tasks": [
+    {
+      "title": "Long list of Stakeholders",
+      "description": "The team's initial goal is to identify up to 15 stakeholder/user groups relevant to the project topic. Understanding key stakeholders and user groups is fundamental to generating innovative ideas and tackling complex problems, so it's important to have a comprehensive list. Have you examined the range of individuals, groups, and organizations that your project's topic affects?",
+      "start_at": 0,
+      "duration": 14
+    },
+    {
+      "title": "User Research and Interviews",
+      "description": "Conduct in-depth user research and interviews with representatives from various stakeholder groups. Gain insights into their needs, pain points, and expectations regarding the project. Document the findings and identify common patterns or themes.",
+      "start_at": 14,
+      "duration": 21
+    }
+  ]
+}

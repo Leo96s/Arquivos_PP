@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "system.tester.Demo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Demo",
+            "request": "launch",
+            "mainClass": "sistemalogin.Demo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "helloworld",
+            "request": "launch",
+            "mainClass": "com.mycompany.helloworld.helloworld",
+            "projectName": "HelloWorld"
+        },
+        {
+            "type": "java",
+            "name": "NewMain",
+            "request": "launch",
+            "mainClass": "com.mycompany.pp_fp01.NewMain",
+            "projectName": "PP_FP01"
+        },
+        {
+            "type": "java",
+            "name": "pp_fp02",
+            "request": "launch",
+            "mainClass": "com.mycompany.pp_fp02.pp_fp02",
+            "projectName": "PP_FP02"
+        },
+        {
+            "type": "java",
+            "name": "pp_fp03",
+            "request": "launch",
+            "mainClass": "com.mycompany.pp_fp03.pp_fp03",
+            "projectName": "PP_FP03"
+        },
+        {
+            "type": "java",
+            "name": "PP_FP04",
+            "request": "launch",
+            "mainClass": "com.mycompany.pp_fp04.PP_FP04",
+            "projectName": "PP_FP04"
+        },
+        {
+            "type": "java",
+            "name": "BookDemo",
+            "request": "launch",
+            "mainClass": "pp_fp04.book.BookDemo",
+            "projectName": "PP_FP04"
+        },
+        {
+            "type": "java",
+            "name": "CDDemo",
+            "request": "launch",
+            "mainClass": "pp_fp05.cd.CDDemo",
+            "projectName": "PP_FP05"
+        },
+        {
+            "type": "java",
+            "name": "ExpensesDemo",
+            "request": "launch",
+            "mainClass": "pp_fp05.expenses.ExpensesDemo",
+            "projectName": "PP_FP05"
+        },
+        {
+            "type": "java",
+            "name": "StoreDemo",
+            "request": "launch",
+            "mainClass": "pp_fp05.store.StoreDemo",
+            "projectName": "PP_FP05"
+        },
+        {
+            "type": "java",
+            "name": "PizzaDemo",
+            "request": "launch",
+            "mainClass": "pp_fp06.pizza_restaurant.PizzaDemo",
+            "projectName": "PP_FP06"
+        },
+        {
+            "type": "java",
+            "name": "BikeDemo",
+            "request": "launch",
+            "mainClass": "pp_fp07.bikeStore.BikeDemo",
+            "projectName": "PP_FP07_Parte1"
+        },
+        {
+            "type": "java",
+            "name": "VehicleDemo",
+            "request": "launch",
+            "mainClass": "pp_fp08.stand.VehicleDemo",
+            "projectName": "PP_FP08"
+        },
+        {
+            "type": "java",
+            "name": "SchoolDemo",
+            "request": "launch",
+            "mainClass": "pp_fp07.publicSchool.SchoolDemo",
+            "projectName": "Pp_FP07_Parte2"
+        },
+        {
+            "type": "java",
+            "name": "DEmo",
+            "request": "launch",
+            "mainClass": "grupoiii.DEmo",
+            "projectName": "teste_2021"
+        }
+    ]
+}

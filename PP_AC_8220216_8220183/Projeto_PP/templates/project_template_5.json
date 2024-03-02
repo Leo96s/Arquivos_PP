@@ -1,0 +1,37 @@
+{
+  "number_of_facilitors": 5,
+  "number_of_students": 2,
+  "number_of_partners": 3,
+  "tasks": [
+    {
+      "title": "Usability Testing",
+      "description": "Conduct usability testing sessions with representative users to evaluate the effectiveness and ease of use of the prototypes. Gather feedback on user experience and identify areas for improvement.",
+      "start_at": 84,
+      "duration": 14
+    },
+    {
+      "title": "Refinement and Iteration",
+      "description": "Based on the feedback received from usability testing, refine and iterate on the prototypes. Make necessary adjustments and enhancements to address user concerns and improve the overall design.",
+      "start_at": 98,
+      "duration": 21
+    },
+    {
+      "title": "Finalize Solution Design",
+      "description": "Finalize the design of the solution based on the refined prototypes and user feedback. Ensure that the solution aligns with project goals, stakeholder requirements, and usability standards.",
+      "start_at": 119,
+      "duration": 14
+    },
+    {
+      "title": "Implementation and Development",
+      "description": "Begin the implementation and development phase of the project. Transform the finalized design into a functional solution, leveraging appropriate technologies and methodologies.",
+      "start_at": 133,
+      "duration": 42
+    },
+    {
+      "title": "Testing and Quality Assurance",
+      "description": "Thoroughly test the developed solution to identify and fix any bugs, errors, or functional issues. Perform quality assurance checks to ensure the solution meets the required standards and specifications.",
+      "start_at": 175,
+      "duration": 1
+    }
+  ]
+}

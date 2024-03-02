@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Company
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Company\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=name\ vatNumber
+comment1.target=Company(java.lang.String,\ int)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Company\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=val
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=int\ getVatNumber()
+comment5.params=val
+comment5.target=void\ setVatNumber(int)
+numComments=6

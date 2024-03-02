@@ -1,0 +1,66 @@
+/* 
+* Nome: Joaquim Fontes Matos
+* Número: 8220816
+* Turma: LEI12T3
+* 
+* Nome: Leonardo Henrique Barbosa Da Silva
+* Número: 8220183
+* Turma: LEI12T3
+ */
+package projeto_pp;
+
+import cbl.participants.Contact;
+import cbl.participants.Instituition;
+import cbl.participants.Partner;
+
+/**
+ * PartnerImpl is a class that represents a partner in a project. It extends the
+ * ParticipantImpl class and implements the Partner interface. It provides
+ * methods to access and manipulate partner information such as VAT number and
+ * website.
+ * @author Leonardo
+ */
+public class PartnerImpl extends ParticipantImpl implements Partner {
+
+    private String vat; // VAT number of the partner
+    private String website; // Website of the partner
+
+    /**
+     * Constructs a PartnerImpl object with the specified VAT number, website,
+     * name, email, contact, and institution.
+     *
+     * @param vat the VAT number of the partner
+     * @param website the website of the partner
+     * @param name the name of the partner
+     * @param email the email address of the partner
+     * @param contact the contact information of the partner
+     * @param institution the institution of the partner
+     */
+    public PartnerImpl(String vat, String website, String name, String email, Contact contact, Instituition institution) {
+        super(name, email, contact, institution);
+        this.vat = vat;
+        this.website = website;
+    }
+
+    /**
+     *
+     * Retrieves the VAT number of the partner.
+     *
+     * @return the VAT number of the partner
+     */
+    @Override
+    public String getVat() {
+        return this.vat;
+    }
+
+    /**
+     *
+     * Retrieves the website of the partner.
+     *
+     * @return the website of the partner
+     */
+    @Override
+    public String getWebsite() {
+        return this.website;
+    }
+}

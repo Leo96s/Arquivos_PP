@@ -1,0 +1,16 @@
+--------------------------------------NOTAS----------------------------------
+Classe: 
+tipos de erro:
+erro em tempo de compilacao
+erro em tempo de execucao
+erro logico
+Ficha 4
+Exercicio 2:
+public calss door{
+int nmaca = 1;
+int nvinha = 1;
+}
+public class Car{
+Public door d;
+}
+

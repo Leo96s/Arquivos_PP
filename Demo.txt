@@ -1,0 +1,64 @@
+/* 
+* Nome: Joaquim Fontes Matos
+* Número: 8220816
+* Turma: LEI12T3
+* 
+* Nome: Leonardo Henrique Barbosa Da Silva
+* Número: 8220183
+* Turma: LEI12T3
+ */
+package projeto_pp;
+
+import java.io.*;
+import java.text.ParseException;
+import java.time.LocalDate;
+import ma02_resources.participants.InstituitionType;
+import ma02_resources.project.Project;
+import ma02_resources.project.Status;
+import ma02_resources.project.Task;
+
+/**
+ *
+ * @author Joaquim Matos
+ */
+public class Demo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) throws IOException, ParseException {
+        ContactImpl contact = new ContactImpl("rua do sino", "Porto", "State", "zipCode", "Country", "912345274");
+        ContactImpl contact2 = new ContactImpl("street", "Porto", "State1", "zipCode1", "Country1", "9123434574");
+        ContactImpl contact3 = new ContactImpl("street2", "Porto", "State2", "zipCode2", "Country2", "912348654");
+        ContactImpl contact4 = new ContactImpl("street3", "Porto", "State3", "zipCode3", "Country3", "911257274");
+        ContactImpl contact5 = new ContactImpl("street4", "Porto", "State4", "zipCode4", "Country4", "9120364759");
+
+        InstituitionImpl instituition = new InstituitionImpl("ABC", "2344345@estg.ipp.pt", InstituitionType.COMPANY, contact,
+                "www.company.ipp.pt", "The best company in the world");
+        InstituitionImpl instituition2 = new InstituitionImpl("ABC", "2344345@estg.ipp.pt", InstituitionType.UNIVERSITY, contact2,
+                "www.estg.ipp.pt", "The best university in the world");
+        InstituitionImpl instituition3 = new InstituitionImpl("ABC", "2344345@estg.ipp.pt", InstituitionType.NGO, contact3,
+                "www.ngo.ipp.pt", "The best ngo in the world");
+
+        StudentImpl student = new StudentImpl(0, "Thomas", "8220456@estg.ipp.pt", contact, instituition);
+
+        PartnerImpl partner = new PartnerImpl("AB1234", "www.estg.ipp.pt", "Name", "8234564@estg.ipp.pt", contact4, instituition3);
+
+        FacilitatorImpl faciliator = new FacilitatorImpl("Name5", "3475689@estg.ipp.pt", contact, instituition, "AreaofExpertise");
+        
+        LocalDate dataInicio = LocalDate.of(2023, 5, 31);
+        LocalDate dataFim = LocalDate.of(2023, 6, 5);
+        TaskImpl task = new TaskImpl(dataInicio, dataFim, 23, "titulo", "tarefa com titulo");
+
+        Task[] tasks = {task};
+        
+        String[] tags = {"tag1", "tag2", "tag3"};
+        EditionImpl edition = new EditionImpl("AAA", dataInicio, "Edição 1 de CBL", Status.ACTIVE, 111, dataFim);
+        
+        edition.addProject("alma", "A alma pura", tags);
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println(edition.toString());
+        }
+    }
+}

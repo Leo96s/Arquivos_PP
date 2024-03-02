@@ -1,0 +1,25 @@
+{
+  "number_of_facilitors": 4,
+  "number_of_students": 3,
+  "number_of_partners": 1,
+  "tasks": [
+    {
+      "title": "Idea Generation Workshop",
+      "description": "Facilitate a workshop with the project team, stakeholders, and partners to generate a wide range of ideas and potential solutions. Encourage creativity and collaboration to come up with innovative approaches. Capture and document all the ideas generated during the workshop.",
+      "start_at": 35,
+      "duration": 7
+    },
+    {
+      "title": "Idea Evaluation and Selection",
+      "description": "Review and evaluate the ideas generated in the previous workshop. Assess their feasibility, alignment with project goals, and potential impact. Select the most promising ideas for further development and refinement.",
+      "start_at": 42,
+      "duration": 14
+    },
+    {
+      "title": "Prototype Development",
+      "description": "Based on the selected ideas, create prototypes or mock-ups of the proposed solutions. Iterate on the designs and gather feedback from stakeholders and users throughout the development process.",
+      "start_at": 56,
+      "duration": 28
+    }
+  ]
+}

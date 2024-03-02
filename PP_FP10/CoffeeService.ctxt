@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CoffeeService
+comment0.text=\r\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ interface\ CoffeService\ aqui.\r\n\ \r\n\ @author\ (seu\ nome\ aqui)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ data\ aqui)\r\n
+comment1.params=
+comment1.target=double\ getCoffeePrice()
+comment2.params=p
+comment2.target=void\ setCoffeePrice(double)
+comment3.params=coffees
+comment3.target=double\ getCoffeeTotal(int)
+numComments=4

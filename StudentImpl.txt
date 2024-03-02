@@ -1,0 +1,48 @@
+/* 
+* Nome: Joaquim Fontes Matos
+* Número: 8220816
+* Turma: LEI12T3
+* 
+* Nome: Leonardo Henrique Barbosa Da Silva
+* Número: 8220183
+* Turma: LEI12T3
+*/
+package projeto_pp;
+import cbl.participants.Contact;
+import cbl.participants.Instituition;
+import cbl.participants.Student;
+
+/**
+ *
+ * The StudentImpl class represents a student participant in a project.
+ * It extends the ParticipantImpl class and implements the Student interface.
+ * A student is a project participant with an identification number.
+ * This class provides methods to get and set the identification number.
+ * @author Leonardo
+ */
+public class StudentImpl extends ParticipantImpl implements Student{
+    private int number;
+    
+    /**
+     * Constructs a StudentImpl object with the specified number, name, email, contact and institution
+     * @param number           The number of the student
+     * @param name             The name of the student.
+     * @param email            The email address of the student.
+     * @param contact          The contact information of the student.
+     * @param institution      The institution associated with the student.
+     */
+    public StudentImpl(int number, String name, String email, Contact contact, Instituition institution) {
+        super(name, email, contact, institution);
+        this.number = number;
+    }
+    
+    /**
+     * Retrieves the identification number of the student.
+     *
+     * @return The number.
+     */
+    @Override
+    public int getNumber() {
+        return this.number;
+    }      
+}

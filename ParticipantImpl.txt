@@ -1,0 +1,115 @@
+/* 
+* Nome: Joaquim Fontes Matos
+* Número: 8220816
+* Turma: LEI12T3
+* 
+* Nome: Leonardo Henrique Barbosa Da Silva
+* Número: 8220183
+* Turma: LEI12T3
+ */
+package projeto_pp;
+
+import cbl.participants.Contact;
+import cbl.participants.Instituition;
+import cbl.participants.Participant;
+
+/**
+ *
+ * ParticipantImpl is a class that represents a participant in a project.
+ *
+ * It implements the Participant interface.
+ *
+ * It provides methods to access and manipulate participant information such as
+ * name, email, contact, and institution.
+ * @author Joaquim
+ */
+public class ParticipantImpl implements Participant {
+
+    private String name; // Name of the participant
+    private String email; // Email address of the participant
+    private Contact contact; // Contact information of the participant
+    private Instituition institution; // Institution of the participant
+
+    /**
+     *
+     * Constructs a ParticipantImpl object with the specified name, email,
+     * contact, and institution.
+     *
+     * @param name the name of the participant
+     * @param email the email address of the participant
+     * @param contact the contact information of the participant
+     * @param institution the institution of the participant
+     */
+    public ParticipantImpl(String name, String email, Contact contact, Instituition institution) {
+        this.name = name;
+        this.email = email;
+        this.contact = contact;
+        this.institution = institution;
+    }
+
+    /**
+     *
+     * Retrieves the name of the participant.
+     *
+     * @return the name of the participant
+     */
+    @Override
+    public String getName() {
+        return this.name;
+    }
+
+    /**
+     *
+     * Retrieves the email address of the participant.
+     *
+     * @return the email address of the participant
+     */
+    @Override
+    public String getEmail() {
+        return this.email;
+    }
+
+    /**
+     *
+     * Retrieves the contact information of the participant.
+     *
+     * @return the contact information of the participant
+     */
+    @Override
+    public Contact getContact() {
+        return this.contact;
+    }
+
+    /**
+     *
+     * Retrieves the institution of the participant.
+     *
+     * @return the institution of the participant
+     */
+    @Override
+    public Instituition getInstituition() {
+        return this.institution;
+    }
+
+    /**
+     *
+     * Sets the institution of the participant.
+     *
+     * @param institution the institution to set
+     */
+    @Override
+    public void setInstituition(Instituition institution) {
+        this.institution = institution;
+    }
+
+    /**
+     *
+     * Sets the contact information of the participant.
+     *
+     * @param contact the contact information to set
+     */
+    @Override
+    public void setContact(Contact contact) {
+        this.contact = contact;
+    }
+}
